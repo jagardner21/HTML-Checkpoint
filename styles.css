@@ -1,0 +1,56 @@
+.picture{
+    justify-content: center; padding-top: 40px;
+    padding-left: 70px;
+    padding-right: 70px;
+    padding-bottom: 5px;
+    font-size: 12px;
+}
+.details{
+    border: 2px solid black;
+    list-style-type: none;
+    text-align: left;
+    padding: 5px
+}
+.container {
+    display: flex;
+    justify-content: space-evenly;
+}
+.details-button {
+    display: flex;
+    margin: auto;
+}
+.form {
+    padding: 7px;
+}
+.radio-buttons {
+    padding-right: 15px;
+    padding-top: 15px;
+}
+.submit-button {
+    padding: 12px;
+}
+.table {
+    border: 3px solid black;
+    border-collapse: collapse;
+}
+.header {
+    background-color: grey;
+    
+}
+.even-row {
+    line-height: 30px;
+    background-color: lightgrey;
+}
+.odd-row {
+    line-height: 30px;   
+    
+}
+/* tr text align because "City" centered for some reason? */
+tr {
+    text-align: left;
+}
+td, th {
+    width: 100px;
+    border-collapse: collapse;
+    border-left: 3px solid black;
+}
